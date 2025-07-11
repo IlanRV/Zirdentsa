@@ -2,6 +2,146 @@
 
 {% block content %}
 
- <h2> Inicio </h2>
+<!-- Top Section -->
+<div class="container">
+  <div class="row m-4 p-2">
+    <div class="col-md-8">
+      <h1>BIODENT</h1>
+      <h5>Innovación con experiencia</h5>
+    </div>
+    <div class="col-md-4">
+      <h1>Slideshow de fotos</h1>
+    </div>
+  </div>
+</div>
+
+<!-- Main Services -->
+<div class="container">
+  <div class="row justify-content-around m-4 p-2">
+    <div class="col-md-4">
+      <p>Lorem Ipsum</p>
+      <p>Servicios</p>
+    </div>
+    <div class="col-md-4">
+      <p>Lorem Ipsum</p>
+      <p>Mis Casos</p>
+    </div>
+    <div class="col-md-4">
+      <p>Lorem Ipsum</p>
+      <p>Contactanos</p>
+    </div>
+  </div>
+</div>
+
+<!-- Index of Services -->
+<div class="container">
+  <div class="row m-4 p-2">
+    <h3>Que Ofrecemos</h3>
+  </div>
+  <div class="row justify-content-around m-4 p-2 text-center">
+    <div class="col-md-2"><p>Coronas</p></div>
+    <div class="col-md-2"><p>Puentes</p></div>
+    <div class="col-md-2"><p>Carillas</p></div>
+    <div class="col-md-2"><p>Unos</p></div>
+    <div class="col-md-2"><p>Otros</p></div>
+    <div class="col-md-2"><p>Unos más</p></div>
+  </div>
+</div>
+
+<!-- Why Work with Us & Testimonials -->
+<div class="container">
+  <div class="row m-4 p-2">
+    <div class="col-md-6 card p-3">
+      <h2>¿Por qué dentistas quieren trabajar con nosotros?</h2>
+      <ul>
+        <li>Lideramos en calidad, entrega y producción</li>
+        <li>Utilizamos productos de la mejor calidad</li>
+        <li>Aseguramos entregar tus trabajos en el tiempo que lo necesites</li>
+        <li>Contamos con maquinas de último modelo con impresión 3D</li>
+      </ul>
+    </div>
+    <div class="col-md-6 card p-3">
+      <p>[SLIDES DE FOTOS]</p>
+    </div>
+  </div>
+
+  <!-- Testimonials -->
+  <div class="row justify-content-center my-5">
+    <h2 class="text-center mb-4">Testimonios</h2>
+
+    <div class="col-md-3 m-2">
+      <div class="card h-100 text-center">
+        <div class="card-body">
+          <h3>[Imagen del Dr/Dra]</h3>
+          <h5 class="mt-3">Dr. Felipe Crespo</h5>
+          <p>Biodent ha trabajado conmigo los últimos 5 años y han sido súper rápidos y precisos con sus trabajos.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 m-2">
+      <div class="card h-100 text-center">
+        <div class="card-body">
+          <h3>[Imagen del Dr/Dra]</h3>
+          <h5 class="mt-3">Dra. María González</h5>
+          <p>Estoy muy satisfecha con la calidad del trabajo. ¡Siempre entregan a tiempo y con gran precisión!</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 m-2">
+      <div class="card h-100 text-center">
+        <div class="card-body">
+          <h3>[Imagen del Dr/Dra]</h3>
+          <h5 class="mt-3">Dr. Luis Ortega</h5>
+          <p>Un equipo altamente profesional. Recomiendo Biodent sin ninguna duda.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Escríbenos Form -->
+<div class="container bg-primary mt-4 p-4">
+  <div class="row justify-content-center">
+    <div class="col-md-6 bg-white p-4 rounded">
+      <h2 class="mb-4 fw-bold text-center">¡Escríbenos!</h2>
+
+      <form>
+        <!-- Nombre -->
+        <div class="mb-3 input-group">
+          <span class="input-group-text bg-white border-0"><i class="bi bi-person"></i></span>
+          <input type="text" class="form-control border-0" placeholder="Nombre" required>
+        </div>
+
+        <!-- Email -->
+        <div class="mb-3 input-group">
+          <span class="input-group-text bg-white border-0"><i class="bi bi-envelope"></i></span>
+          <input type="email" class="form-control border-0" placeholder="Email" required>
+        </div>
+
+        <!-- Teléfono -->
+        <div class="mb-3 input-group">
+          <span class="input-group-text bg-white border-0"><i class="bi bi-telephone"></i></span>
+          <input type="tel" class="form-control border-0" placeholder="Teléfono">
+        </div>
+
+        <!-- Clinica -->
+        <div class="mb-3 input-group">
+          <span class="input-group-text bg-white border-0"><i class="bi bi-clipboard-plus"></i></span>
+          <input type="text" class="form-control border-0" placeholder="Clinica">
+        </div>
+
+        <!-- Mensaje -->
+        <div class="mb-3">
+          <textarea class="form-control border-0" placeholder="Tu mensaje..." rows="5" required></textarea>
+        </div>
+
+        <!-- Send Button -->
+        <button type="submit" class="btn btn-success w-100 text-white fw-bold">Enviar</button>
+      </form>
+    </div>
+  </div>
+</div>
 
 {% endblock %}

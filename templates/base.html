@@ -6,7 +6,16 @@
     <title>Biodent</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- CSS by me :) -->
     <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body class="d-flex flex row">
@@ -15,7 +24,7 @@
 <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark px-3">
     <!-- biodent logo -->
     <div class="container-fluid d-flex p-3">
-        <a class="navbar-brand" href="main-dashboard.html">Biodent</a>
+        <img src="static/Images/png_of_BiodentIcon.png" class="img-fluid" alt="...">
     </div>
 
     <!-- navbar content -->
@@ -28,7 +37,7 @@
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 
                 <li class="nav-item active">
-                    <a class="nav-link" href="/inicio">Inicio </a>
+                    <a class="nav-link" href="/">Inicio</a>
                 </li>
 
                 <li class="nav-item">
@@ -62,24 +71,32 @@
 {% block content %}{% endblock %}
 
 <!-- Footer -->
-<footer class="d-flex flex-wrap justify-content-between align-items-center pt-3 pb-3 my-3 border-top">
-    <div class="col-md-4 d-flex">
-        <ul>
-            <li>Servicios</li>
-            <li>Mis Casos</li>
-            <li>Contactanos</li>
-        </ul>
-    </div>
-    <div class="col-md-4 d-flex align-items-center">
-        <span class="mb-3 mb-md-0 text-body-secondary">&copy; 2025 | Zirdentsa </span>
-    </div>
-    <div class="col-md-4 d-flex">
-        <ul>
-            <li class="mb-3 mb-md-0">Encuéntranos en circunvalación norte 227A Calle Primera</li>
-            <li class="mb-3 mb-md-0">Horarios de Atención de 8 am - 5 pm</li>
-        </ul>
-    </div>
+<footer class="d-flex justify-content-between align-items-center pt-3 pb-3 my-3 border-top container text-center">
+
+  <!-- Left Section -->
+  <div class="d-flex flex-column align-items-center col-md-4">
+    <ul class="list-unstyled">
+      <li>Servicios</li>
+      <li>Mis Casos</li>
+      <li>Contactanos</li>
+    </ul>
+  </div>
+
+  <!-- Center Section -->
+  <div class="d-flex justify-content-center col-md-4">
+    <span class="text-body-secondary">&copy; 2025 | Zirdentsa</span>
+  </div>
+
+  <!-- Right Section -->
+  <div class="d-flex flex-column align-items-center col-md-4">
+    <ul class="list-unstyled">
+      <li>Encuéntranos en circunvalación norte 227A Calle Primera</li>
+      <li>Horarios de Atención de 8 am - 5 pm</li>
+    </ul>
+  </div>
+
 </footer>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 
 </body>
