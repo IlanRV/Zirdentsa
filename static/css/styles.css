@@ -7,3 +7,58 @@
     font-size: 14px;
     color: black;
 }
+
+.card .icon {
+    color: rgb(36,172,220);
+    font-size: 3rem;
+}
+
+.card .card-text {
+    color: black;
+}
+
+.card:hover {
+    background-color: rgb(36,172,220);
+    color: #f8f8f8;
+}
+
+.card:hover .img .card.hover .card-text {
+    color: #f8f8f8;
+}
+
+.card {
+    transition: all 0.3ms;
+}
+
+.body {
+    margin: 0px;
+}
+
+.hero-content {
+    color: #FFF;
+}
+
+.section-block {
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centered {
+    text-align: center;
+}
+
+.hero-banner {
+    align-items: center;
+    background-color: cornflowerblue;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 800px;
+    width: 100%;
+
+}
+

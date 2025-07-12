@@ -2,41 +2,65 @@
 
 {% block content %}
 
-<!-- Top Section -->
-<div class="container">
-  <div class="row m-4 p-2">
-    <div class="col-md-8">
-      <h1>BIODENT</h1>
-      <h5>Innovación con experiencia</h5>
-    </div>
-    <div class="col-md-4">
-      <h1>Slideshow de fotos</h1>
-    </div>
+<!-- Hero Banner -->
+<div class="hero-banner">
+  <div class="hero-content">
+        <h1 class="fw-bold centered">BIODENT</h1>
+        <h5 class="text-light centered">Innovación con experiencia</h5>
   </div>
 </div>
 
+
+<!-- About us -->
+
+<div class="section-block d-flex justify-content-center align-items-center">
+  <div class="text-center" style="max-width: 600px;">
+      <i class="bi bi-info-circle-fill fs-2"></i>
+      <h3 class="lh-base fw-bold p-2">Sobre Nosotros</h3>
+    <h5 class="lh-base fw-light">
+      Comenzamos hace más de 50 años de experiencia trabajando con productos I.Max, combinando tecnología de vanguardia con la artesanía dental tradicional.
+      Nuestro laboratorio se ha dedicado a ofrecer soluciones personalizadas, precisas y estéticas para cada paciente.
+      A lo largo de las décadas, hemos perfeccionado técnicas innovadoras en diseño y fabricación de prótesis, carillas y coronas, garantizando calidad, durabilidad y una sonrisa natural.
+      En Biodent, la excelencia no es una opción, es nuestro estándar.
+    </h5>
+  </div>
+</div>
+
+
+
 <!-- Main Services -->
-<div class="container">
-  <div class="row justify-content-around m-4 p-2">
-    <div class="col-md-4">
-      <p>Lorem Ipsum</p>
-      <p>Servicios</p>
-    </div>
-    <div class="col-md-4">
-      <p>Lorem Ipsum</p>
-      <p>Mis Casos</p>
-    </div>
-    <div class="col-md-4">
-      <p>Lorem Ipsum</p>
-      <p>Contactanos</p>
-    </div>
+
+<div class="container bg-dark p-5">
+  <div class="row justify-content-around section-block m-3 p-2">
+        <div class="card text-center border-0 shadow rounded-0 p-3" style="max-width: 22rem;">
+            <img src="static/Images/servicios.jpg" class="object-fit-md-contain  img-responsive rounded mx-auto m-2" width="250" height="200" alt="...">
+            <div class="card-body">
+                <h4 class="card-title fw-bold">Servicios</h4>
+            </div>
+        </div>
+
+        <div class="card text-center border-0 shadow rounded-0 p-3" style="max-width: 22rem;">
+            <img src="static/Images/mis casos.png" class="object-fit-md-contain  img-responsive rounded mx-auto m-2" width="250" height="200" alt="...">
+            <div class="card-body">
+                <h4 class="card-title fw-bold">Mis Casos</h4>
+            </div>
+        </div>
+
+
+        <div class="card text-center border-0 shadow rounded-0 p-3" style="max-width: 22rem;">
+            <img src="static/Images/contact.png" class="object-fit-md-contain img-responsive rounded mx-auto m-2" width="250" height="200" alt="...">
+            <div class="card-body">
+                <h4 class="card-title fw-bold">Contactanos</h4>
+            </div>
+        </div>
+
   </div>
 </div>
 
 <!-- Index of Services -->
 <div class="container">
   <div class="row m-4 p-2">
-    <h3>Que Ofrecemos</h3>
+    <h3 class="text-center">Que Ofrecemos?</h3>
   </div>
   <div class="row justify-content-around m-4 p-2 text-center">
     <div class="col-md-2"><p>Coronas</p></div>
