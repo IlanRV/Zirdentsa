@@ -31,7 +31,7 @@
 }
 
 .body {
-    margin: 0px;
+    margin: 0;
 }
 
 .hero-content {
@@ -51,14 +51,94 @@
 
 .hero-banner {
     align-items: center;
-    background-color: cornflowerblue;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     justify-content: center;
-    height: 800px;
+    height: 780px;
     width: 100%;
+    position: relative;
+    overflow: hidden;
+    min-height: 50vh;
+    background: rgba(0, 0, 0, 0.75);
+}
+
+.video-bg {
+    position: absolute;
+    top: 52.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    aspect-ratio: 16 / 9;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
+
+.arrow-down i {
+    font-size: 2rem;
+    color: white;
+}
+
+.person {
+    --transform-speed: 250ms;
+    position: relative;
+    max-width: 15rem;
+    margin: auto;
+}
+
+.person-container {
+    background: transparent;
+    aspect-ratio: 1 / 1.25;
+    display: grid;
+    align-items: end;
+    border-radius: 0 0 140vw 140vw;
+    overflow: hidden;
+    position: relative;
+    width: 50%;
+    left: 4em;
+
+    transition: transform var(--transform-speed);
 
 }
 
+.person-container:hover {
+    transform: scale(1.1);
+
+}
+.person-circle {
+    position: absolute;
+    inset: 3.5em 3.5em 2em 0.75em;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    width: 80%;
+    border-radius: 50%;
+    margin-inside: auto;
+}
+.person-img {
+    position: relative;
+    inset: 10px 4em 0 0.5em;
+    z-index: 2;
+    width: 75%;
+    transform: scale(1.4);
+    transition: transform var(--transform-speed) ease-in-out;
+}
+
+.person-container:hover .person-img {
+    scale(1.4);
+    translate(-1rem);
+
+}
+
+.card:hover .person-container {
+  transform: scale(1.2);
+}
+
+.card:hover .person-img {
+  transform: scale(1.4) translateY(-0.5rem);
+}
+
+.font-times {
+    font-family: "Times New Roman", Times, serif;
+}
