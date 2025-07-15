@@ -1,7 +1,6 @@
 
 .footer
 {
-    background-color: #f8f8f8;
     padding: 20px;
     text-align: center;
     font-size: 14px;
@@ -30,6 +29,13 @@
     transition: all 0.3ms;
 }
 
+
+.card-img-top {
+    width: 70%;
+    height: 5vw;
+    object-fit: cover;
+}
+
 .body {
     margin: 0;
 }
@@ -39,7 +45,7 @@
 }
 
 .section-block {
-    height: 800px;
+    height: 700px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -66,7 +72,7 @@
 
 .video-bg {
     position: absolute;
-    top: 52.5%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     aspect-ratio: 16 / 9;
