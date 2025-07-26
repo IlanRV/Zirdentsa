@@ -72,9 +72,9 @@
 
 .video-bg {
     position: absolute;
-    top: 55%;
+    top: 72%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -60%);
     aspect-ratio: 16 / 9;
     min-width: 100%;
     min-height: 100%;
