@@ -2,7 +2,6 @@
 
 {% block content %}
 
-    <!-- Hero Banner -->
     <div class="hero-banner hero-content d-flex flex-column align-items-center">
         <div class="centered">
             <h1 class="fw-bold centered font-times">BIODENT</h1>
@@ -16,8 +15,6 @@
         </video>
     </div>
 
-
-    <!-- About us -->
 
     <div class="section-block d-flex justify-content-center align-items-center" style="background-color: lightgray">
         <div class="text-center" style="max-width: 600px;">
@@ -36,50 +33,55 @@
     </div>
 
 
-    <!-- Index of Services -->
-    <div class="container section-block" style="background-color: #00072D">
-        <div class="row m-4 p-2">
-            <h3 class="text-center text-light mx-auto mb-2 p-4">Que Ofrecemos?</h3>
+<section class="py-5" style="background-color: #00072D;">
+    <div class="container">
+        <div class="row px-3">
+            <h3 class="text-center text-light mx-auto mb-4 font-times">¿Qué Ofrecemos?</h3>
         </div>
-        <div class="row justify-content-around m-4 p-2 text-center">
-            <div class="col-md-2">
-                <div class="card text-center border-0 shadow rounded-0 p3" style="width: 18rem;">
-                    <img src="static/Images/Ofrecemos_1.jpg" class="" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Zirconia CAD/CAM</h5>
-                        <a href="#" class="btn btn-primary">Mas info</a>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 g-4">
+            <div class="col">
+                <div class="card h-100 border-0 shadow rounded-3">
+                    <img src="static/Images/Ofrecemos_1.jpg" class="card-img-top" alt="Zirconia CAD/CAM">
+                    <div class="card-body text-center">
+                        <h5 class="card-title font-times">Zirconia CAD/CAM</h5>
+                        <a href="#" class="btn btn-primary">Más info</a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-2">
-                <div class="card text-center border-0 shadow rounded-0 p3" style="width: 18rem;">
-                    <img src="static/Images/Ofrecemos_2.jpg" class="" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Emax - Ceramica</h5>
-                        <a href="#" class="btn btn-primary">Mas info</a>
+
+            <div class="col">
+                <div class="card h-100 border-0 shadow rounded-3">
+                    <img src="static/Images/Ofrecemos_2.jpg" class="card-img-top" alt="Emax - Cerámica">
+                    <div class="card-body text-center">
+                        <h5 class="card-title font-times">Emax - Cerámica</h5>
+                        <a href="#" class="btn btn-primary">Más info</a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-2">
-                <div class="card text-center border-0 shadow rounded-0 p3" style="width: 18rem;">
-                    <img src="static/Images/ofrecemos_3.jpg" class="" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Modelos Impresos</h5>
-                        <a href="#" class="btn btn-primary">Mas info</a>
+
+            <div class="col">
+                <div class="card h-100 border-0 shadow rounded-3">
+                    <img src="static/Images/ofrecemos_3.jpg" class="card-img-top" alt="Modelos Impresos">
+                    <div class="card-body text-center">
+                        <h5 class="card-title font-times">Modelos Impresos</h5>
+                        <a href="#" class="btn btn-primary">Más info</a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-2">
-                <div class="card text-center border-0 shadow rounded-0 p3" style="width: 18rem;">
-                    <img src="static/Images/Ofrecemos_4.jpg" class="" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Implant Abutments</h5>
-                        <a href="#" class="btn btn-primary">Mas info</a>
+
+            <div class="col">
+                <div class="card h-100 border-0 shadow rounded-3">
+                    <img src="static/Images/Ofrecemos_4.jpg" class="card-img-top" alt="Implant Abutments">
+                    <div class="card-body text-center">
+                        <h5 class="card-title font-times">Implant Abutments</h5>
+                        <a href="#" class="btn btn-primary">Más info</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</section>
+
 
     <!-- Why Work with Us & Testimonials  #Bootstrap Example-->
     <!-- src = https://bootstrapbrain.com/component/bootstrap-about-us-section-snippet-example/#code -->
@@ -133,9 +135,9 @@
                                         information.</p>
                                 </div>
                             </div>
-                            <button type="button" class="btn bsb-btn-xl btn-outline-primary rounded-pill">Contactanos
+                            <a type="button" class="btn bsb-btn-xl btn-outline-primary rounded-pill" href="#contact">Contactanos
                                 hoy!
-                            </button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -201,7 +203,7 @@
 
 
     <!-- Escríbenos Form -->
-    <div class="container" style="background-color: #00072D">
+    <div class="container" style="background-color: #00072D" id="contact">
         <div class="row section-block">
             <div class="text-start text-light mx-auto align-items-center" style="max-width: 500px;">
                 <h1>Descubre cómo enviar tu primer caso</h1>

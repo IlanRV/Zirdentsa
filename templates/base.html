@@ -13,6 +13,9 @@
     <!-- CSS by me :) -->
     <link href="{{ url_for('static', filename='css/styles.css') }}" rel="stylesheet">
 
+    <!-- JS -->
+    <script src="js/main.js"></script>
+
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body class="d-flex flex row">
@@ -47,7 +50,7 @@
                     </ul>
                 </li>
                 <li class="nav-item"><a class="nav-link disabled" href="/mis-casos">Mis Casos</a></li>
-                <li class="nav-item"><a class="nav-link" href="/contacto">Contáctanos</a></li>
+                <li class="nav-item"><a class="nav-link" href="/#contact">Contáctanos</a></li>
             </ul>
         </div>
     </div>
@@ -62,9 +65,9 @@
     <!-- Left Section -->
     <div class="d-flex flex-column align-items-center col-md-4">
         <ul class="list-unstyled">
-            <li>Servicios</li>
-            <li>Mis Casos</li>
-            <li>Contactanos</li>
+            <li><a class="nav-link" href="/servicios">Servicios</a></li></li>
+            <li><a class="nav-link" href="/mis-casos">Mis Casos</a></li></li>
+            <li><a class="nav-link" href="/#contact">Contáctanos</a></li></li>
         </ul>
     </div>
 
