@@ -170,6 +170,7 @@
     background-color: lightgray;
     padding: 50px;
     margin: 10px;
+    height: 100%
 }
 
 .team-container.in-view {
@@ -177,7 +178,8 @@
 }
 
 .team-content {
-    padding: 20px;
+    padding: 15px;
+    width: 100%;
 
 }
 
@@ -185,6 +187,8 @@
     margin: 12px;
     padding: 12px;
 }
+
+
 
 .navbar {
   position: sticky;

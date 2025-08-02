@@ -14,9 +14,9 @@ def conocenos():
 def servicios():
     return render_template('servicios.html', title='Servicios')
 
-@app.route('/mis_casos')
-def mis_casos():
-    return render_template('mis-casos.html', title='Mis casos')
+@app.route('/casos')
+def casos():
+    return render_template('casos.html', title='casos')
 
 @app.route('/contacto')
 def contacto():
